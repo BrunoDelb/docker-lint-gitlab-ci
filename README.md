@@ -9,5 +9,5 @@ This Docker container lints a `.gitlab-ci.yml` file (CI file for GitLab).  It's 
 Create a .gitlab-ci.yml file in the `./app` directory then run this command:
 
 ```
-docker run --rm -v $PWD/app:/app lint-gitlab-ci gitlab-ci-lint .gitlab-ci.yml
+docker run --rm -v $PWD/app:/app lint-gitlab-ci devopstestlab/gitlab-ci-lint .gitlab-ci.yml
 ```
